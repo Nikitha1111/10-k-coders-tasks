@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+     <title>bulid basic layout using using flex box</title>
+	 <style>
+	 .header{
+	  color:white;
+	  background-color:black;
+	  padding:50px;
+	  font-size:36px;
+	  font-weight:700px;
+	  text-align:center;
+	 
+	 }
+	 
+	 
+	 .banner{
+	  color:white;
+	  background-color:green;
+	  padding:50px;
+	  font-size:36px;
+	  font-weight:700px;
+	  text-align:center;
+	  height:400px;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center
+	 
+	 }
+	 .content>div:nth-child(1),.content>div:nth-child(2), .content>div:nth-child(3){
+	   height:500px;
+	   background-color:gray;
+	   color:white;
+	   font-size:36px;
+	   font-weight:700px;
+	   display:flex;
+	  justify-content:center;
+	  align-items:center
+      	  
+	 }
+	 .content{
+	 display:flex;
+	 align-items:center
+	 }
+	 
+	 </style>
+ </head>
+
+<body>
+  
+  <div class="header">
+    Header
+  </div>
+ 
+ <div class="banner">
+    Banner
+  </div>
+  
+  <div class="content">
+       <div>content1</div>
+       <div>content2</div>
+        <div>content3</div>
+
+  </div>
+  
+  <div class="footer">
+   footer
+  </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+        <head> 
+		     <title>pseudo selectors</title>
+         </head>
+
+        <style>
+		ul > li:nth-child(2){
+		  color:red;
+		}
+		h1:hover{
+		color:orange;
+		}
+		p::first-letter{
+		font-size:36px;
+		color:red
+		}
+     	p::selection{
+		background-color:green;
+		}
+     	p::before{
+		content:"nikitha"
+		}
+
+     	p::after{
+		content:"mama"
+		}
+       [class="attribute"]{
+	   background-color:red}
+		
+		</style>
+		<body>
+		<!--first chaild-->
+        <ul>
+		<li> first child</li>
+		<li> second child</li>
+		<li> third child</li>
+		<li> fourth child</li>
+        </ul>
+		<!--a:hover-->
+		<h1>Hover</h1>
+		<p> hduhsldjnouehiwsdnuwhi jwndjhdu djkwhudhwjd jwhduwhj </p>
+        
+		<!--attribute selectors-->
+		<h2 class="attribute"> attribute selectors</h2>
+
+
+
+     
+
+
+
+		</body>
+
+
+
+
+
+
+</html>

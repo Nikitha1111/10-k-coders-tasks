@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head><title> css grid</title>
+   <style>
+     #grid-parent{
+      background-color:cyan;
+     padding:10px;
+     display:grid;
+      grid-template-areas:
+     " logo nav nav "
+	 "banner banner banner"
+	 "content1 content2 content3"
+	 "footer footer footer"
+
+     }
+    .grid_child{
+
+    background-color:black;
+    color:white;
+    font-size:36px;
+    font-weight:700px;
+    text-align:center;
+    border: 1px solid white;
+    padding:30px;
+    }
+	.logo{
+	grid-column:1/2
+	
+	}
+      
+	  .nav{
+	grid-column:2/4
+
+	
+	}
+	
+	.banner{
+	grid-column:1/1
+
+	
+	}
+
+	
+	.content1{
+	
+	
+	}
+
+	.content2{
+	
+	
+	}
+	.content3{
+	
+	
+	}
+	.footer{
+	grid-column:span 3
+	
+	}
+
+
+
+</style>
+
+
+</head>
+<body>
+  <div id="grid-parent"> 
+ <div class="grid_child  logo" >logo</div>
+ <div class="grid_child  nav" >nav</div>
+
+ <div class="grid_child  banner">banner</div>
+ <div class="grid_child  content1">content1</div>
+  <div class="grid_child  content2">content2</div>
+    <div class="grid_child  content3">content3</div>
+  <div class="grid_child  footer">footer</div>
+
+ 
+
+ 
+ </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

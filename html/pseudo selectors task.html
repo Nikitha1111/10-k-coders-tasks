@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title> task of pseduo selctors</title> 
+</head>
+    <body> 
+     <style> 
+	 ul > li:nth-child(2){
+	 color:red;
+	 }
+	 h1:hover{
+	 color:orange;
+	 text-align:center;
+	 
+	 }
+	 
+	 p::first-letter{
+	 font-size:36px;
+	 color:red;
+	 
+	 }
+	p::after{
+		content:"**"
+	
+		}
+	p::before{
+		content:"$$"
+		}
+		
+    [class="attribute"]
+	{
+	   background-color:blue;
+	   }
+
+
+	 
+	 </style>	
+	 <!--psedo class selectors-->
+    <ul>
+	<li> hello</li>
+     <li> html</li>
+	<li> css </li>
+	<li> bootstrap</li>
+	</ul>
+	<h1>Nikitha </h1>
+    
+	<!--pseudo elemente selectors-->
+	<p> I'm currently learning full stack web development at 10k coders</p>
+	
+<!--attribute selectors-->
+		<h2 class="attribute" style="color:white;"> i am practicing about pseudo class&   element&  attribute selectors</h2>
+
+    </body>
+ <marquee><h1 style="color:green;">Happy learning</h1></marquee>
+</html>

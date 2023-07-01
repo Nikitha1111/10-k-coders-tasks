@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Turkish icecream log in page</title>
+</head>
+<style>
+
+body{
+    background-color:#f2f2f2;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    max-width:400px;
+	margin:0 auto;
+	padding:20px;
+	background-color:#fff;
+	border-radius:5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	
+   }
+h1 {
+    text-align:center;
+    color:#FF6600;
+
+    }
+label
+	{
+    display:block;
+    margin-bottom:10px;
+     color:#555;
+
+    }
+
+input[type="text"],
+input[type="password"]
+    {
+      width:100%;
+      padding:10px;
+      border 1px solid #ccc;
+      border-radius:4px;
+   }
+
+ input[type="submit]
+    {
+      width:100%;
+	  padding:10px;
+	  background-color:#FF6600;
+	  border:none;
+	  color:#fff;
+	  font-size:16px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  border-radius:4px;
+	  animation: dance 0.5s infinite alternate;
+   }
+
+  input[type="submit"]:hover{
+ 
+     animation:none;
+   }
+   
+ @keyframes dance {
+ 
+    0%{
+	transform:rotateZ(0);
+	}
+    
+	50%{
+		transform:rotateZ(5deg);
+	}
+	100%{
+		transform:rotateZ(0);
+
+	}
+ 
+ }
+ 
+ 
+</style>
+
+ <body>
+    <div class="container">
+       <h1> Turkish Ice Cream Login Page</h1>
+	  <form>
+	          <label for="username">username:</label>
+	           <input type="text" id="username" name="username" required>
+	  
+	  	     <label for="password">password:</label>
+		     <input type="password" id="password" name="password" required>
+			 
+			 <input type="submit" value="login">
+		</form>
+	</div>
+ 
+  </body>
+ 
+</html>

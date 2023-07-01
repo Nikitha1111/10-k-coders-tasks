@@ -1,0 +1,28 @@
+
+/*h3{
+	background-color:pink;
+			
+	}
+#id-selector{
+	background-color:blue;
+	color:white;
+	
+}
+.cselector{
+	background-color:red;
+}
+h2{
+	background-color:yellow;
+	
+}
+*{
+		background-color:red;
+
+}
+*/
+.background-card {
+{
+     background-image:url("../images/grass.jpg");
+     beckground-size:cover;
+     height:100vh;
+}}
